@@ -1,0 +1,93 @@
+.html{
+	box-sizing:border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	background-color: black;
+}
+
+h1{
+	color : orange;
+	font-size:50px;
+	font-weight:500;
+}
+
+.thing_container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 800px;
+	height: 100px;
+	background-color: white;
+	position:relative;
+}
+.input_container{
+	width: 600px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items: center;
+
+
+}
+
+#prix{
+	width: 60%;
+	height: 30px;
+}
+#bouton_deviner{
+	height: 38px;
+	padding: 10px;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	background-color: #0069d9;
+	color: white;
+	font-weight:600;
+	margin-left: 10px;
+	border:1px solid #0069d9;
+	border-radius: 3px;
+}
+
+#prix:focus{
+	border:2px solid red;
+}
+
+input{
+	padding-left: 10px;
+}
+input:focus{
+	outline:none;
+}
+
+.msgError{
+	visibility:hidden;
+	position:absolute;
+	top:60%;
+	color: red;
+}
+
+.infos{
+	color: white;
+	width:800px;
+	height: 30px;
+	margin:10px;
+	padding: 10px;
+}
+
+.element_infos{
+	font-weight: 600;
+	margin-left: 10px;
+	margin:10px;
+	padding: 10px;
+	width:800px;
+	height: 30px;
+	margin:10px;
+	display:flex;
+	align-items:center;
+}

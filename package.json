@@ -1,0 +1,16 @@
+{
+  "name": "index",
+  "type":"module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node": "^20.2.0",
+    "readline-sync": "^1.4.10"
+  }
+}
