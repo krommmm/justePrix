@@ -116,5 +116,9 @@ input:focus{
 	.infos{
 		width: 90%;
 	}
+
+	.element_infos{
+		width: 90%;
+	}
 	
 }
