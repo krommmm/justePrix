@@ -91,3 +91,30 @@ input:focus{
 	display:flex;
 	align-items:center;
 }
+
+@media screen and (max-width: 832px){
+	.thing_container{
+		width: 90%;
+		height: 200px;
+		display:flex;
+		flex-direction:column;
+	}
+
+	#prix{
+		width: 90%;
+	}
+
+	.input_container{
+		width: 100%;
+	}
+
+	#bouton_deviner{
+		margin-top:10px;
+		margin-bottom: 30px;
+
+	}
+	.infos{
+		width: 90%;
+	}
+	
+}
